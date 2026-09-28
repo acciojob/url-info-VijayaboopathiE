@@ -1,1 +1,6 @@
 /*  your css code here. If applicable */
+const url = location.href;
+
+const length = url.length;
+
+alert("The length of the URL is: " + length);
